@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/andoshin11/hygen-template/issues"
   },
-  "homepage": "https://github.com/andoshin11/hygen-template#readme"
+  "homepage": "https://github.com/andoshin11/hygen-template#readme",
+  "devDependencies": {
+    "hygen": "^1.6.2"
+  }
 }
