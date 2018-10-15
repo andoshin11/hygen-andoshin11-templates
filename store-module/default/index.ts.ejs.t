@@ -1,0 +1,14 @@
+---
+to: src/store/modules/<%= name %>/index.ts
+---
+import { Module } from "vuex";
+import { Rootstate } from "@/store";
+import { mutations } from "@/store/modules/<%= name %>/mutations";
+import { I<%= Name %>State, initialState } from "@/store/modules/<%= name %>/state";
+
+export * from "@/store/modules/<%= name %>/state";
+
+export const store: Module<I<%= Name %>State, Rootstate> = {
+  state: initialState,
+  mutations
+};
