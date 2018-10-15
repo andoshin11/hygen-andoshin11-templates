@@ -2,7 +2,7 @@
 to: src/store/modules/<%= name %>/index.ts
 ---
 import { Module } from "vuex";
-import { Rootstate } from "@/store";
+import { RootState } from "@/store";
 import { mutations } from "@/store/modules/<%= name %>/mutations";
 import { I<%= Name %>State, initialState } from "@/store/modules/<%= name %>/state";
 
