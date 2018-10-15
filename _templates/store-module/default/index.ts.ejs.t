@@ -8,7 +8,7 @@ import { I<%= Name %>State, initialState } from "@/store/modules/<%= name %>/sta
 
 export * from "@/store/modules/<%= name %>/state";
 
-export const store: Module<I<%= Name %>State, Rootstate> = {
+export const store: Module<I<%= Name %>State, RootState> = {
   state: initialState,
   mutations
 };
