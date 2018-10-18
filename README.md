@@ -1,4 +1,5 @@
 [![npm version](https://img.shields.io/npm/v/hygen-andoshin11-templates.svg)](https://www.npmjs.com/package/hygen-andoshin11-templates)
+[![MIT License](http://img.shields.io/badge/licence-MIT-blue.svg?style=flat)](LICENSE)
 
 # About Package
 
