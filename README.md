@@ -2,6 +2,8 @@
 ![minified size](https://img.shields.io/bundlephobia/min/hygen-andoshin11-templates.svg)
 [![MIT License](http://img.shields.io/badge/licence-MIT-blue.svg?style=flat)](LICENSE)
 [![dependencies](https://david-dm.org/andoshin11/hygen-andoshin11-templates.svg)](package.json)
+![release date](https://img.shields.io/github/release-date/andoshin11/hygen-andoshin11-templates.svg)
+![last commit](https://img.shields.io/github/last-commit/andoshin11/hygen-andoshin11-templates.svg)
 
 # About Package
 
