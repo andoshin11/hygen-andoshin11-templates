@@ -11,7 +11,8 @@ Vue.use(Vuex);
 export interface RootState {
 }
 
-export default new Vuex.Store<Rootstate>({
+export default new Vuex.Store<RootState>({
   modules: {
   }
 });
+
