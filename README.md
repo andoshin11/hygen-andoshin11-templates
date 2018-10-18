@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/hygen-andoshin11-templates.svg)](https://www.npmjs.com/package/hygen-andoshin11-templates)
+
 # About Package
 
 # Requisities
