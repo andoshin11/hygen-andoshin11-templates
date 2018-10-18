@@ -27,3 +27,4 @@ export const mutations: MutationTree<I<%= Name %>State> = {
     state.item = item;
   }
 };
+

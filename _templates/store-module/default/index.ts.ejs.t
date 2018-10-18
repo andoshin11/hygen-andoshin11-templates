@@ -12,3 +12,4 @@ export const store: Module<I<%= Name %>State, RootState> = {
   state: initialState,
   mutations
 };
+

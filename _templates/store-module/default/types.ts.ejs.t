@@ -30,3 +30,4 @@ export class ResetItem implements FluxStandardAction {
   type = Types.RESET_ITEM;
   payload = null;
 }
+
