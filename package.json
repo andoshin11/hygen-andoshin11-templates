@@ -1,5 +1,5 @@
 {
-  "name": "@andoshin11/hygen-template",
+  "name": "hygen-andoshin11-templates",
   "version": "0.1.0",
   "description": "A repository to catalog my frequently used hygen templates",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andoshin11/hygen-template.git"
+    "url": "git+https://github.com/andoshin11/hygen-andoshin11-templates.git"
   },
   "keywords": [
     "node",
@@ -18,9 +18,9 @@
   "author": "andoshin11",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andoshin11/hygen-template/issues"
+    "url": "https://github.com/andoshin11/hygen-andoshin11-templates/issues"
   },
-  "homepage": "https://github.com/andoshin11/hygen-template#readme",
+  "homepage": "https://github.com/andoshin11/hygen-andoshin11-templates#readme",
   "devDependencies": {
     "hygen": "^1.6.2"
   }
