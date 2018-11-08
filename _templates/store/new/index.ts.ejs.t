@@ -1,5 +1,5 @@
 ---
-to: src/store/index.ts
+to: <%= path %>/index.ts
 ---
 import Vue from "vue";
 import Vuex from "vuex";
@@ -15,4 +15,3 @@ export default new Vuex.Store<RootState>({
   modules: {
   }
 });
-
