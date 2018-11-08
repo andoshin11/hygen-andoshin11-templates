@@ -1,16 +1,16 @@
 ---
-to: src/usecases/<%= Name %>UseCase.ts
+to: <%= path %>/<%= name %>.ts
 ---
 import ErrorService from "@/services/ErrorService";
 
-export interface I<%= Name %>UseCase {
+export interface I<%= name %> {
   errorService: ErrorService;
 }
 
-export default class <%= Name %>UseCase implements BaseUseCase {
+export default class <%= name %> implements BaseUseCase {
   errorService: ErrorService;
 
-  constructor({ errorService }: I<%= Name %>UseCase) {
+  constructor({ errorService }: I<%= name %>) {
     this.errorService = errorService;
   }
 
