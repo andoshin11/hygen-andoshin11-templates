@@ -1,26 +1,26 @@
 ---
-to: src/entities/<%= Name %>.ts
+to: <%= path %>/<%= name %>.ts
 ---
-export interface I<%= Name %>Props {
+export interface I<%= name %>Props {
   id:string
 }
 
-export default class <%= Name %>Entity {
-  private _props: I<%= Name %>Props
+export default class <%= name %>Entity {
+  private _props: I<%= name %>Props
 
-  constructor(props: I<%= Name %>Props) {
+  constructor(props: I<%= name %>Props) {
     this._props = props
   }
 
-  get props(): I<%= Name %>Props {
+  get props(): I<%= name %>Props {
     return this._props
   }
 }
 
-export const <%= Name %>Factory = (): <%= Name %>Entity => {
-  const dummyProps: I<%= Name %>Props = {
+export const <%= name %>Factory = (): <%= name %>Entity => {
+  const dummyProps: I<%= name %>Props = {
     id: 'dummyId'
   }
 
-  return new <%= Name %>Entity(dummyProps)
+  return new <%= name %>Entity(dummyProps)
 }
